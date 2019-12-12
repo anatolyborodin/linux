@@ -57,7 +57,7 @@ Required properties are:
  - groups: An array of strings. Each string contains the name of a group.
   Valid values for these names are listed below.
 
-Optional properies are:
+Optional properties are:
  bias-disable, bias-pull, bias-pull-down, input-enable,
  input-schmitt-enable, input-schmitt-disable, output-enable
  output-low, output-high, drive-strength, slew-rate

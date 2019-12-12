@@ -788,7 +788,7 @@ static void update_inbnd_queue_table(struct pm8001_hba_info *pm8001_ha,
 {
 	void __iomem *address = pm8001_ha->inbnd_q_tbl_addr;
 	u16 offset = number * 0x20;
-	pm8001_mw32(address, offset + IB_PROPERITY_OFFSET,
+	pm8001_mw32(address, offset + IB_PROPERTY_OFFSET,
 		pm8001_ha->inbnd_q_tbl[number].element_pri_size_cnt);
 	pm8001_mw32(address, offset + IB_BASE_ADDR_HI_OFFSET,
 		pm8001_ha->inbnd_q_tbl[number].upper_base_addr);
@@ -824,7 +824,7 @@ static void update_outbnd_queue_table(struct pm8001_hba_info *pm8001_ha,
 {
 	void __iomem *address = pm8001_ha->outbnd_q_tbl_addr;
 	u16 offset = number * 0x24;
-	pm8001_mw32(address, offset + OB_PROPERITY_OFFSET,
+	pm8001_mw32(address, offset + OB_PROPERTY_OFFSET,
 		pm8001_ha->outbnd_q_tbl[number].element_size_cnt);
 	pm8001_mw32(address, offset + OB_BASE_ADDR_HI_OFFSET,
 		pm8001_ha->outbnd_q_tbl[number].upper_base_addr);

@@ -572,7 +572,7 @@ void xxxfb_imageblit(struct fb_info *p, const struct fb_image *image)
  *      @info: frame buffer structure that represents a single frame buffer
  *	@cursor: structure defining the cursor to draw.
  *
- *      This operation is used to set or alter the properities of the
+ *      This operation is used to set or alter the properties of the
  *	cursor.
  *
  *	Returns negative errno on error, or zero on success.

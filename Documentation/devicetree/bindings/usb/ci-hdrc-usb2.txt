@@ -18,7 +18,7 @@ Required properties:
 - reg: base address and length of the registers
 - interrupts: interrupt for the USB controller
 
-Recommended properies:
+Recommended properties:
 - phy_type: the type of the phy connected to the core. Should be one
   of "utmi", "utmi_wide", "ulpi", "serial" or "hsic". Without this
   property the PORTSC register won't be touched.

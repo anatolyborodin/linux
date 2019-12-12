@@ -3,7 +3,7 @@
 The RCPM performs all device-level tasks associated with device run control
 and power management.
 
-Required properites:
+Required properties:
   - reg : Offset and length of the register set of the RCPM block.
   - #fsl,rcpm-wakeup-cells : The number of IPPDEXPCR register cells in the
 	fsl,rcpm-wakeup property.

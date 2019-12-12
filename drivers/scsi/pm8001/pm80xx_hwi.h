@@ -1520,7 +1520,7 @@ typedef struct SASProtocolTimerConfig SASProtocolTimerConfig_t;
 /* end PSPA */
 
 /* inbound queue configuration offset - byte offset */
-#define IB_PROPERITY_OFFSET		0x00
+#define IB_PROPERTY_OFFSET		0x00
 #define IB_BASE_ADDR_HI_OFFSET		0x04
 #define IB_BASE_ADDR_LO_OFFSET		0x08
 #define IB_CI_BASE_ADDR_HI_OFFSET	0x0C
@@ -1530,7 +1530,7 @@ typedef struct SASProtocolTimerConfig SASProtocolTimerConfig_t;
 #define IB_RESERVED_OFFSET		0x1C
 
 /* outbound queue configuration offset - byte offset */
-#define OB_PROPERITY_OFFSET		0x00
+#define OB_PROPERTY_OFFSET		0x00
 #define OB_BASE_ADDR_HI_OFFSET		0x04
 #define OB_BASE_ADDR_LO_OFFSET		0x08
 #define OB_PI_BASE_ADDR_HI_OFFSET	0x0C

@@ -18,7 +18,7 @@
 	/*
 	 *	we need to have a 'safe' address to re-direct all I/O requests
 	 *	that we do not explicitly wish to handle. This safe address
-	 *	must have the following properies:
+	 *	must have the following properties:
 	 *
 	 *		* writes are ignored (no exception)
 	 *		* reads are benign (no side-effects)
