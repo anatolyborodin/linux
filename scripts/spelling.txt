@@ -1084,6 +1084,11 @@ prononciation||pronunciation
 pronouce||pronounce
 pronunce||pronounce
 propery||property
+properies||properties
+properites||properties
+properities||properties
+IB_PROPERITY_OFFSET||IB_PROPERTY_OFFSET
+OB_PROPERITY_OFFSET||OB_PROPERTY_OFFSET
 propigate||propagate
 propigation||propagation
 propogate||propagate
