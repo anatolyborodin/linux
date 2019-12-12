@@ -185,7 +185,7 @@ struct isc_ctrls {
  * @pipeline:		configuration of the ISC pipeline
  *
  * @current_subdev:	current subdevice: the sensor
- * @subdev_entities:	list of subdevice entitites
+ * @subdev_entities:	list of subdevice entities
  */
 struct isc_device {
 	struct regmap		*regmap;
