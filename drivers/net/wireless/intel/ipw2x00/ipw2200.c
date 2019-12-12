@@ -5595,7 +5595,7 @@ static int ipw_find_adhoc_network(struct ipw_priv *priv,
 		return 0;
 	}
 
-	/* TODO: Perform any further minimal comparititive tests.  We do not
+	/* TODO: Perform any further minimal comparative tests.  We do not
 	 * want to put too much policy logic here; intelligent scan selection
 	 * should occur within a generic IEEE 802.11 user space tool.  */
 
@@ -5790,7 +5790,7 @@ static int ipw_best_network(struct ipw_priv *priv,
 		return 0;
 	}
 
-	/* TODO: Perform any further minimal comparititive tests.  We do not
+	/* TODO: Perform any further minimal comparative tests.  We do not
 	 * want to put too much policy logic here; intelligent scan selection
 	 * should occur within a generic IEEE 802.11 user space tool.  */
 
