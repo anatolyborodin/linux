@@ -1909,7 +1909,7 @@ out:
 }
 
 /*
- * update_prstate - update partititon_root_state
+ * update_prstate - update partition_root_state
  * cs:	the cpuset to update
  * val: 0 - disabled, 1 - enabled
  *

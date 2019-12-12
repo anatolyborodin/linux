@@ -1831,7 +1831,7 @@ static u32 evergreen_line_buffer_adjust(struct radeon_device *rdev,
 	 * Line Buffer Setup
 	 * There are 3 line buffers, each one shared by 2 display controllers.
 	 * DC_LB_MEMORY_SPLIT controls how that line buffer is shared between
-	 * the display controllers.  The paritioning is done via one of four
+	 * the display controllers.  The partitioning is done via one of four
 	 * preset allocations specified in bits 2:0:
 	 * first display controller
 	 *  0 - first half of lb (3840 * 2)

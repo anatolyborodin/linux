@@ -11,7 +11,7 @@
 
 struct mlxsw_sp2_kvdl_part_info {
 	u8 res_type;
-	/* For each defined partititon we need to know how many
+	/* For each defined partition we need to know how many
 	 * usage bits we need and how many indexes there are
 	 * represented by a single bit. This could be got from FW
 	 * querying appropriate resources. So have the resource

@@ -42,7 +42,7 @@ struct gasket_page_table;
  * Description: Allocates and initializes data to track address translation -
  * simple and extended page table metadata. Initially, the page table is
  * partitioned such that all addresses are "simple" (single-level lookup).
- * gasket_partition_page_table can be called to change this paritioning.
+ * gasket_partition_page_table can be called to change this partitioning.
  *
  * Returns 0 on success, a negative error code otherwise.
  */

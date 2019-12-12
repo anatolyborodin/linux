@@ -969,7 +969,7 @@ static struct iommu_group *get_pci_device_group(struct pci_dev *pdev)
 		group = pci_device_group(&pdev->dev);
 
 		/*
-		 * PCIe controller is not a paritionable entity
+		 * PCIe controller is not a partitionable entity
 		 * free the controller device iommu_group.
 		 */
 		if (pci_ctl->parent->iommu_group)

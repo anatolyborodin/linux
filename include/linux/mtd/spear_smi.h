@@ -34,7 +34,7 @@
  * name: name of the serial nor flash for identification
  * mem_base: the memory base on which the flash is mapped
  * size: size of the flash in bytes
- * partitions: parition details
+ * partitions: partition details
  * nr_partitions: number of partitions
  * fast_mode: whether flash supports fast mode
  */

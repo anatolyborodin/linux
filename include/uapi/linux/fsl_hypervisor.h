@@ -125,7 +125,7 @@ struct fsl_hv_ioctl_stop {
  *
  * The 'local' partition is the partition that calls this ioctl.  The
  * 'remote' partition is a different partition.  The data is copied from
- * the 'source' paritition' to the 'target' partition.
+ * the 'source' partition' to the 'target' partition.
  *
  * The buffer in the remote partition must be guest physically
  * contiguous.

@@ -447,7 +447,7 @@ struct xpc_partition_uv {
 	unsigned long heartbeat_gpa; /* phys addr of partition's heartbeat */
 	struct xpc_heartbeat_uv cached_heartbeat; /* cached copy of */
 						  /* partition's heartbeat */
-	unsigned long activate_gru_mq_desc_gpa;	/* phys addr of parititon's */
+	unsigned long activate_gru_mq_desc_gpa;	/* phys addr of partition's */
 						/* activate mq's gru mq */
 						/* descriptor */
 	void *cached_activate_gru_mq_desc; /* cached copy of partition's */

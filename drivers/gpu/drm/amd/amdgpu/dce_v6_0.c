@@ -997,7 +997,7 @@ static u32 dce_v6_0_line_buffer_adjust(struct amdgpu_device *adev,
 	 * Line Buffer Setup
 	 * There are 3 line buffers, each one shared by 2 display controllers.
 	 * mmDC_LB_MEMORY_SPLIT controls how that line buffer is shared between
-	 * the display controllers.  The paritioning is done via one of four
+	 * the display controllers.  The partitioning is done via one of four
 	 * preset allocations specified in bits 21:20:
 	 *  0 - half lb
 	 *  2 - whole lb, other crtc must be disabled

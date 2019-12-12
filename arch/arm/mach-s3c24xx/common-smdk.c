@@ -102,7 +102,7 @@ static struct platform_device smdk_led7 = {
 	},
 };
 
-/* NAND parititon from 2.4.18-swl5 */
+/* NAND partition from 2.4.18-swl5 */
 
 static struct mtd_partition smdk_default_nand_part[] = {
 	[0] = {

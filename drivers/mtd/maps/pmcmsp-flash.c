@@ -89,7 +89,7 @@ static int __init init_msp_flash(void)
 
 	/* loop over the flash devices, initializing each */
 	for (i = 0; i < fcnt; i++) {
-		/* examine the prom environment for flash partititions */
+		/* examine the prom environment for flash partitions */
 		part_name[5] = '0' + i;
 		part_name[7] = '0';
 		for (pcnt = 0; (env = prom_getenv(part_name)); pcnt++)

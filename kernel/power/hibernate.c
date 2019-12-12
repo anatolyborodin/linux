@@ -841,7 +841,7 @@ static int software_resume(void)
 	swsusp_resume_device = name_to_dev_t(resume_file);
 
 	/*
-	 * name_to_dev_t is ineffective to verify parition if resume_file is in
+	 * name_to_dev_t is ineffective to verify partition if resume_file is in
 	 * integer format. (e.g. major:minor)
 	 */
 	if (isdigit(resume_file[0]) && resume_wait) {

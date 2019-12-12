@@ -215,7 +215,7 @@ void rs690_line_buffer_adjust(struct radeon_device *rdev,
 	 * Line Buffer Setup
 	 * There is a single line buffer shared by both display controllers.
 	 * R_006520_DC_LB_MEMORY_SPLIT controls how that line buffer is shared between
-	 * the display controllers.  The paritioning can either be done
+	 * the display controllers.  The partitioning can either be done
 	 * manually or via one of four preset allocations specified in bits 1:0:
 	 *  0 - line buffer is divided in half and shared between crtc
 	 *  1 - D1 gets 3/4 of the line buffer, D2 gets 1/4
