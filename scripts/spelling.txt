@@ -314,6 +314,8 @@ compatable||compatible
 compatibiliy||compatibility
 compatibilty||compatibility
 compatiblity||compatibility
+comparititive||comparative
+comparitor||comparator
 competion||completion
 compilant||compliant
 compleatly||completely
@@ -525,6 +527,7 @@ enlightnment||enlightenment
 enqueing||enqueuing
 entires||entries
 entites||entities
+entitites||entities
 entrys||entries
 enocded||encoded
 enterily||entirely
@@ -977,10 +980,25 @@ parametised||parametrised
 paramter||parameter
 paramters||parameters
 parmaters||parameters
+parital||partial
+paritial||partial
+paritially||partially
+paritcular||particular
 particuarly||particularly
+particuar||particular
 particularily||particularly
+MAX_PARITIONS||MAX_PARTITIONS
+paritionable||partitionable
+partioning||partitioning
+paritioning||partitioning
+parition||partition
+paritition||partition
+parititon||partition
 partion||partition
 partions||partitions
+partititions||partitions
+partititon||partition
+partititon_root_state||partition_root_state
 partiton||partition
 pased||passed
 passin||passing
@@ -1027,6 +1045,8 @@ prefered||preferred
 prefferably||preferably
 premption||preemption
 prepaired||prepared
+prepartion||preparation
+keyprepartion||key preparation
 preperation||preparation
 pressre||pressure
 primative||primitive
