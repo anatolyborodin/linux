@@ -808,7 +808,7 @@ xcall_flush_dcache_page_spitfire: /* %g1 == physical page address
 				     %g7 == kernel page virtual address
 				     %g5 == (page->mapping != NULL)  */
 #ifdef DCACHE_ALIASING_POSSIBLE
-	srlx		%g1, (13 - 2), %g1	! Form tag comparitor
+	srlx		%g1, (13 - 2), %g1	! Form tag comparator
 	sethi		%hi(L1DCACHE_SIZE), %g3	! D$ size == 16K
 	sub		%g3, (1 << 5), %g3	! D$ linesize == 32
 1:	ldxa		[%g3] ASI_DCACHE_TAG, %g2
