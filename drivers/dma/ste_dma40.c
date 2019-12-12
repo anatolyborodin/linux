@@ -1530,7 +1530,7 @@ static void dma_tc_handle(struct d40_chan *d40c)
 
 	if (d40d->cyclic) {
 		/*
-		 * If this was a paritially loaded list, we need to reloaded
+		 * If this was a partially loaded list, we need to reloaded
 		 * it, and only when the list is completed.  We need to check
 		 * for done because the interrupt will hit for every link, and
 		 * not just the last one.

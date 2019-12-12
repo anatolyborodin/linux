@@ -212,7 +212,7 @@ static void qed_ll2b_complete_rx_packet(void *cxt,
 	skb_put(skb, data->length.packet_length);
 	skb_checksum_none_assert(skb);
 
-	/* Get parital ethernet information instead of eth_type_trans(),
+	/* Get partial ethernet information instead of eth_type_trans(),
 	 * Since we don't have an associated net_device.
 	 */
 	skb_reset_mac_header(skb);
