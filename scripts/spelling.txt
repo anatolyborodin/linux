@@ -581,7 +581,6 @@ failue||failure
 failuer||failure
 failng||failing
 faireness||fairness
-falied||failed
 faliure||failure
 fallbck||fallback
 familar||familiar
@@ -762,7 +761,6 @@ interrup||interrupt
 interrups||interrupts
 interruptted||interrupted
 interupted||interrupted
-interupt||interrupt
 intial||initial
 intialisation||initialisation
 intialised||initialised
@@ -925,7 +923,6 @@ occassionally||occasionally
 occationally||occasionally
 occurance||occurrence
 occurances||occurrences
-occured||occurred
 occurence||occurrence
 occure||occurred
 occured||occurred
@@ -1426,7 +1423,6 @@ usefull||useful
 usege||usage
 usera||users
 usualy||usually
-usupported||unsupported
 utilites||utilities
 utillities||utilities
 utilties||utilities
