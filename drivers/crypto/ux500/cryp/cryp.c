@@ -127,9 +127,9 @@ int cryp_set_configuration(struct cryp_device_data *device_data,
 		 * This seems a bit odd, but it is indeed needed to set this to
 		 * encrypt even though it is a decryption that we are doing. It
 		 * also mentioned in the design spec that you need to do this.
-		 * After the keyprepartion for decrypting is done you should set
-		 * algodir back to decryption, which is done outside this if
-		 * statement.
+		 * After the key preparation for decrypting is done you should
+		 * set algodir back to decryption, which is done outside this
+		 * if statement.
 		 *
 		 * According to design specification we should set mode ECB
 		 * during key preparation even though we might be running CBC

@@ -411,7 +411,7 @@ int amdgpu_dm_update_crtc_color_mgmt(struct dm_crtc_state *crtc)
  *
  * Update the underlying dc_stream_state's input transfer function (ITF) in
  * preparation for hardware commit. The transfer function used depends on
- * the prepartion done on the stream for color management.
+ * the preparation done on the stream for color management.
  *
  * Returns 0 on success.
  */
