@@ -67,7 +67,7 @@
  *
  * When handling responses we also hold the lport mutex broadly. When the
  * lport receives the response frame it locks the mutex and then calls the
- * appropriate handler for the particuar response. Generally a response will
+ * appropriate handler for the particular response. Generally a response will
  * trigger a state change and so the lock must already be held.
  *
  * Retries also have to consider the locking. The retries occur from a work

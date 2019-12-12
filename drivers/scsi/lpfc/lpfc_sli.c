@@ -14640,7 +14640,7 @@ lpfc_sli4_queue_alloc(struct lpfc_hba *phba, uint32_t page_size,
 		}
 		dmabuf->buffer_tag = x;
 		list_add_tail(&dmabuf->list, &queue->page_list);
-		/* use lpfc_sli4_qe to index a paritcular entry in this page */
+		/* use lpfc_sli4_qe to index a particular entry in this page */
 		queue->q_pgs[x] = dmabuf->virt;
 	}
 	INIT_WORK(&queue->irqwork, lpfc_sli4_hba_process_cq);
