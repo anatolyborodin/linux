@@ -476,7 +476,7 @@ nouveau_fbcon_set_suspend(struct drm_device *dev, int state)
 	drm->fbcon_new_state = state;
 	/* Since runtime resume can happen as a result of a sysfs operation,
 	 * it's possible we already have the console locked. So handle fbcon
-	 * init/deinit from a seperate work thread
+	 * init/deinit from a separate work thread
 	 */
 	schedule_work(&drm->fbcon_work);
 }

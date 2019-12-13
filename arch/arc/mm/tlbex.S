@@ -5,7 +5,7 @@
  * Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
  *
  * Vineetg: April 2011 :
- *  -MMU v1: moved out legacy code into a seperate file
+ *  -MMU v1: moved out legacy code into a separate file
  *  -MMU v3: PD{0,1} bits layout changed: They don't overlap anymore,
  *      helps avoid a shift when preparing PD0 from PTE
  *

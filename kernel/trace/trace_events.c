@@ -1203,7 +1203,7 @@ out:
 
 enum {
 	FORMAT_HEADER		= 1,
-	FORMAT_FIELD_SEPERATOR	= 2,
+	FORMAT_FIELD_SEPARATOR	= 2,
 	FORMAT_PRINTFMT		= 3,
 };
 
@@ -1221,7 +1221,7 @@ static void *f_next(struct seq_file *m, void *v, loff_t *pos)
 		node = common_head;
 		break;
 
-	case FORMAT_FIELD_SEPERATOR:
+	case FORMAT_FIELD_SEPARATOR:
 		node = head;
 		break;
 
@@ -1232,7 +1232,7 @@ static void *f_next(struct seq_file *m, void *v, loff_t *pos)
 
 	node = node->prev;
 	if (node == common_head)
-		return (void *)FORMAT_FIELD_SEPERATOR;
+		return (void *)FORMAT_FIELD_SEPARATOR;
 	else if (node == head)
 		return (void *)FORMAT_PRINTFMT;
 	else
@@ -1252,7 +1252,7 @@ static int f_show(struct seq_file *m, void *v)
 		seq_puts(m, "format:\n");
 		return 0;
 
-	case FORMAT_FIELD_SEPERATOR:
+	case FORMAT_FIELD_SEPARATOR:
 		seq_putc(m, '\n');
 		return 0;
 

@@ -17,7 +17,7 @@ static bool msm_gem_shrinker_lock(struct drm_device *dev, bool *unlock)
 	 *
 	 * Also, msm_obj->madv is protected by struct_mutex.
 	 *
-	 * The next step is probably split out a seperate lock for
+	 * The next step is probably split out a separate lock for
 	 * protecting inactive_list, so that shrinker does not need
 	 * struct_mutex.
 	 */

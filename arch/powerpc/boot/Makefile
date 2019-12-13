@@ -86,7 +86,7 @@ $(obj)/virtex405-head.o: BOOTAFLAGS += -mcpu=405
 # these files into the build dir, fix up any includes and ensure that dependent
 # files are copied in the right order.
 
-# these need to be seperate variables because they are copied out of different
+# these need to be separate variables because they are copied out of different
 # directories in the kernel tree. Sure you COULd merge them, but it's a
 # cure-is-worse-than-disease situation.
 zlib-decomp-$(CONFIG_KERNEL_GZIP) := decompress_inflate.c

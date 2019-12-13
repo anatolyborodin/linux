@@ -37,7 +37,7 @@
  *
  * Vineetg: Aug 21th 2008:
  *  -Reduced the duration of IRQ lockouts in TLB Flush routines
- *  -Multiple copies of TLB erase code seperated into a "single" function
+ *  -Multiple copies of TLB erase code separated into a "single" function
  *  -In TLB Flush routines, interrupt disabling moved UP to retrieve ASID
  *       in interrupt-safe region.
  *

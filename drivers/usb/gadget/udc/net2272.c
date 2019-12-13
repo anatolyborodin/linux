@@ -289,7 +289,7 @@ static void net2272_ep_reset(struct net2272_ep *ep)
 			  | (1 << LOCAL_OUT_ZLP)
 			  | (1 << BUFFER_FLUSH));
 
-	/* fifo size is handled seperately */
+	/* fifo size is handled separately */
 }
 
 static int net2272_disable(struct usb_ep *_ep)

@@ -79,7 +79,7 @@ ENTRY(handle_interrupt)
 	#
 	# Note this disable is only for consistent book-keeping as further interrupts
 	# will be disabled anyways even w/o this. Hardware tracks active interrupts
-	# seperately in AUX_IRQ_ACT.active and will not take new interrupts
+	# separately in AUX_IRQ_ACT.active and will not take new interrupts
 	# unless this one returns (or higher prio becomes pending in 2-prio scheme)
 
 	IRQ_DISABLE

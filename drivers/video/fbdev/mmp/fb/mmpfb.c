@@ -217,7 +217,7 @@ static void pixfmt_to_var(struct fb_var_screeninfo *var, int pix_fmt)
 
 /*
  * fb framework has its limitation:
- * 1. input color/output color is not seprated
+ * 1. input color/output color is not separated
  * 2. fb_videomode not include output color
  * so for fb usage, we keep a output format which is not changed
  *  then it's added for mmpmode

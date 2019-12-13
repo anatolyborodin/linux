@@ -806,7 +806,7 @@ int drm_sched_init(struct drm_gpu_scheduler *sched,
 	atomic_set(&sched->num_jobs, 0);
 	atomic64_set(&sched->job_id_count, 0);
 
-	/* Each scheduler will run on a seperate kernel thread */
+	/* Each scheduler will run on a separate kernel thread */
 	sched->thread = kthread_run(drm_sched_main, sched, sched->name);
 	if (IS_ERR(sched->thread)) {
 		ret = PTR_ERR(sched->thread);

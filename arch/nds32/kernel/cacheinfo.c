@@ -28,7 +28,7 @@ int init_cache_level(unsigned int cpu)
 {
 	struct cpu_cacheinfo *this_cpu_ci = get_cpu_cacheinfo(cpu);
 
-	/* Only 1 level and I/D cache seperate. */
+	/* Only 1 level and I/D cache separate. */
 	this_cpu_ci->num_levels = 1;
 	this_cpu_ci->num_leaves = 2;
 	return 0;

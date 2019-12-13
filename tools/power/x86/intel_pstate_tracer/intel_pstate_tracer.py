@@ -88,8 +88,8 @@ def print_help():
     print('      kbytes: Kilo bytes of memory per CPU to allocate to the trace buffer. Default: 10240')
     print('  Output:')
     print('    If not already present, creates a "results/test_name" folder in the current working directory with:')
-    print('      cpu.csv - comma seperated values file with trace contents and some additional calculations.')
-    print('      cpu???.csv - comma seperated values file for CPU number ???.')
+    print('      cpu.csv - comma separated values file with trace contents and some additional calculations.')
+    print('      cpu???.csv - comma separated values file for CPU number ???.')
     print('      *.png - a variety of PNG format plot files created from the trace contents and the additional calculations.')
     print('  Notes:')
     print('    Avoid the use of _ (underscore) in test names, because in gnuplot it is a subscript directive.')
@@ -346,7 +346,7 @@ def store_csv(cpu_int, time_pre_dec, time_post_dec, core_busy, scaled, _from, _t
     graph_data_present = True;
 
 def split_csv():
-    """ seperate the all csv file into per CPU csv files. """
+    """ separate the all csv file into per CPU csv files. """
 
     global current_max_cpu
 
@@ -489,7 +489,7 @@ def read_trace_data(filename):
             if cpu_int > current_max_cpu:
                 current_max_cpu = cpu_int
 # End of for each trace line loop
-# Now seperate the main overall csv file into per CPU csv files.
+# Now separate the main overall csv file into per CPU csv files.
     split_csv()
 
 def signal_handler(signal, frame):

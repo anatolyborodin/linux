@@ -285,7 +285,7 @@ void __cache_line_loop_v2(phys_addr_t paddr, unsigned long vaddr,
 
 /*
  * For ARC700 MMUv3 I-cache and D-cache flushes
- *  - ARC700 programming model requires paddr and vaddr be passed in seperate
+ *  - ARC700 programming model requires paddr and vaddr be passed in separate
  *    AUX registers (*_IV*L and *_PTAG respectively) irrespective of whether the
  *    caches actually alias or not.
  * -  For HS38, only the aliasing I-cache configuration uses the PTAG reg

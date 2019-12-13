@@ -83,7 +83,7 @@ struct i915_gem_context {
 	 * @vm: unique address space (GTT)
 	 *
 	 * In full-ppgtt mode, each context has its own address space ensuring
-	 * complete seperation of one client from all others.
+	 * complete separation of one client from all others.
 	 *
 	 * In other modes, this is a NULL pointer with the expectation that
 	 * the caller uses the shared global GTT.

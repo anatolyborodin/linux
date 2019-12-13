@@ -441,7 +441,7 @@ void intel_vgpu_write_fence(struct intel_vgpu *vgpu,
 	u32 fence, u64 value);
 
 /* Macros for easily accessing vGPU virtual/shadow register.
-   Explicitly seperate use for typed MMIO reg or real offset.*/
+   Explicitly separate use for typed MMIO reg or real offset.*/
 #define vgpu_vreg_t(vgpu, reg) \
 	(*(u32 *)(vgpu->mmio.vreg + i915_mmio_reg_offset(reg)))
 #define vgpu_vreg(vgpu, offset) \
