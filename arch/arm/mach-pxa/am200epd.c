@@ -353,7 +353,7 @@ int __init am200_init(void)
 	 *
 	 * FIXME: This is terrible and needs to be nuked. The notifier is used
 	 * to get at the fb base address from the boot splash fb driver, which
-	 * is then passed to metronomefb. Instaed of metronomfb or this board
+	 * is then passed to metronomefb. Instead of metronomfb or this board
 	 * support file here figuring this out on their own.
 	 *
 	 * See also the #ifdef in fbmem.c.
